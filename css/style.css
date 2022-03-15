@@ -1,0 +1,18 @@
+
+body{
+background-image:linear-gradient(to right,  rgb(255, 168, 168), rgb(255, 255, 255));
+
+
+}
+h1{
+text-align: center;
+color:#ffffff;
+font-size: 80px;
+margin-top:5%; 
+}
+        
+#canvas1{
+position: absolute;
+top: 30%;
+left: 30%;
+    }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title> Trabalho</title>
+<meta name="viewport" content="width=device-witdh,initial scale=1.0"/>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+
+<h1> Gris </h1>
+
+
+<canvas id="canvas1" width= "1210" height="617"></canvas>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
