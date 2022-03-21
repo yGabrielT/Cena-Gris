@@ -1,6 +1,6 @@
 
 body{
-background-image:linear-gradient(to right,  rgb(255, 168, 168), rgb(255, 255, 255));
+    background:linear-gradient(90deg, rgba(255, 218, 54, 1) 0%, rgba(255, 138, 38, 1) 71%);
 overflow: hidden;
 }
 h1{
@@ -12,6 +12,6 @@ margin-top:5%;
         
 #canvas1{
 position: absolute;
-top: 30%;
+top: 25%;
 left:20%;
     }
