@@ -5,6 +5,7 @@ var ctx3 = ex.getContext('2d');
 var ctx4 = ex.getContext('2d');
 var ctx5 = ex.getContext('2d');
 var ctx6 = ex.getContext('2d');
+var ctx7 = ex.getContext('2d');
 
 // chão //
 ctx6.beginPath();
@@ -18,7 +19,6 @@ ctx6.lineTo(400,617);
 ctx6.fillStyle="grey";
 ctx6.fill();
 ctx6.stroke();
-
 
 
 // Sol //
@@ -44,6 +44,7 @@ ctx5.stroke();
 ctx3.beginPath();
 ctx3.moveTo(500,287);
 ctx3.lineTo(500,350);
+ctx3.lineWidth=5;
 ctx3.strokeStyle="black";
 ctx3.stroke();
 
@@ -53,7 +54,7 @@ ctx3.lineTo(490,350);
 ctx3.strokeStyle="black";
 ctx3.stroke();
 
-// corpo //
+// Corpo //
 
 ctx4.beginPath();
 ctx4.moveTo(450,290);
@@ -66,6 +67,8 @@ ctx4.fill();
 ctx4.stroke();
 
 // Montanha //
+
+
 ctx2.beginPath();
 ctx2.moveTo(400,617);
 ctx2.lineTo(400,350);
@@ -79,4 +82,15 @@ ctx2.fillStyle="black";
 ctx2.strokeStyle="black";
 ctx2.fill();
 ctx2.stroke();
+ctx2.beginPath();
 
+// Bordas do Canvas //
+
+ctx7.beginPath();
+ctx7.moveTo(0,617);
+ctx7.lineTo(0,0);
+ctx7.lineTo(1210,0);
+ctx7.lineTo(1210,617);
+ctx7.lineTo(0,617);
+ctx7.lineWidth=16;
+ctx7.stroke();
