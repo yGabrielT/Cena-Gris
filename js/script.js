@@ -6,14 +6,19 @@ var ctx4 = ex.getContext('2d');
 var ctx5 = ex.getContext('2d');
 var ctx6 = ex.getContext('2d');
 var ctx7 = ex.getContext('2d');
+var ctx8 = ex.getContext('2d');
+
+// Imagem //
+
+
 
 // Montanhas //
 ctx6.beginPath();
 ctx6.moveTo(400,617);
 ctx6.lineTo(0,617);
-ctx6.lineTo(400,0);
+ctx6.lineTo(400,100);
 ctx6.lineTo(600,300);
-ctx6.lineTo(800,0);
+ctx6.lineTo(800,10);
 ctx6.lineTo(1200,617);
 ctx6.lineTo(400,617);
 ctx6.lineWidth = 5 ;
@@ -21,7 +26,7 @@ ctx6.shadowOffsetX = -4;
 ctx6.shadowOffsetY = 1;
 ctx6.shadowBlur = 5;
 ctx6.shadowColor = "rgba(0, 0, 0, 0.5)";
-ctx6.fillStyle="DarkGray";
+ctx6.fillStyle="#210000";
 ctx6.fill();
 ctx6.stroke();
 
@@ -65,10 +70,12 @@ ctx3.stroke();
 // Corpo //
 
 ctx4.beginPath();
+ctx4.lineCap = "round";
+ctx4.lineJoin = "round";
 ctx4.moveTo(450,290);
 ctx4.lineTo(550,290);
 ctx4.lineTo(500,150);
-ctx4.lineTo(450,292);
+ctx4.lineTo(450,290);
 ctx4.fillStyle="black";
 ctx4.strokeStyle="black"
 ctx4.fill();
@@ -86,7 +93,9 @@ ctx2.lineTo(1000,100);
 ctx2.lineTo(1200,0);
 ctx2.lineTo(1200,617);
 ctx2.lineTo(400,617);
-ctx2.fillStyle="black";
+ctx2.lineCap = "round";
+ctx2.lineJoin = "round";
+ctx2.fillStyle="#140000";
 ctx2.strokeStyle="black";
 ctx2.fill();
 ctx2.stroke();
